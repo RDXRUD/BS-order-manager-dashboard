@@ -1,0 +1,30 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <meta charset='utf-8'>
+          <title>Excel Viewer</title>
+          <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/handsontable@13.0.0/dist/handsontable.full.min.css'>
+          <script src='https://cdn.jsdelivr.net/npm/handsontable@13.0.0/dist/handsontable.full.min.js'></script>
+          <style>
+            html, body { margin: 0; height: 100%; }
+            #hot { height: 100vh; }
+          </style>
+        </head>
+        <body>
+          <div id="hot"></div>
+          <script>
+            const data = [['', '', '', '', '', 'Order Form'], ['', '', '', '', '', ''], ['Balaji Surgicals', '', '', '', '', ''], ['Near Mahila Degree College, Nawabi Road, Haldwani-263 139', '', '', '', '', ''], ['', '', '', '', '', ''], ['GSTIN No. 05ADGPA2715B1ZH', '', '', '', '', 'Ph.:  97193-04441'], ['D.L.No. 20B:121663, 21B:121664', '', '', '', '', 'e-mail : balajisumit@yahoo.co.in'], ['', '', '', '', '', ''], ['To,', '', '', '', 'Date :', '14/10/24'], ['Hindustan Medical Devices Pvt Ltd.', '', '', '', 'Order No. : ', '8'], ['Dehradun', '', '', '', '', ''], ['adarshmed.2009@gmail.com, vishalsharma.hmd@gmail.com, virennegimba@yahoo.com', '', '', '', '', ''], ['', '', '', '', '', ''], ['Dear Sir,', '', '', '', '', ''], ['Kindly supply the following items:', '', '', '', '', ''], ['SI.', 'Item Name', '      Qty.     ', '   Unit', '', ''], ['', '', '', '', '', ''], ['', 'Dispovan Syringe, 1ml-UP', 1, 'case', '', ''], ['', 'Dispovan Syringe, 1ml-MP', 2, 'case', '', ''], ['', 'Dispovan Syringe, 1ml-26G', '', 'case', '', ''], ['', '', '', '', '', ''], ['', 'Dispovan Syringe, 2ml', 7, 'case', '', ''], ['', 'Dispovan Syringe, 3ml', 6, 'case', '', ''], ['', 'Dispovan Syringe, 5ml', 10, 'case', '', ''], ['', '', '', '', '', ''], ['', 'Dispovan Syringe, 10ml', 10, 'case', '', ''], ['', 'Dispovan Syringe, 20ml', 3, 'case', '', ''], ['', 'Dispovan Syringe, 50ml', 1, 'case', '', ''], ['', '', '', '', '', ''], ['', 'Dispovan Needle -20gX1.5"', 5, 'Box', '', ''], ['', 'Dispovan Needle -21gX1"', 2, 'Box', '', ''], ['', 'Dispovan Needle -22gX1"', 5, 'Box', '', ''], ['', 'Dispovan Needle -23gX1"', '', 'Box', '', ''], ['', 'Dispovan Needle -24gX1"', '', 'Box', '', ''], ['', 'Dispovan Needle -26gX1/2"', '', 'Box', '', ''], ['', '', '', '', '', ''], ['', 'Surgical Blade- 11no.', 50, 'Box', '', ''], ['', 'Surgical Blade- 12no.', '', 'Box', '', ''], ['', 'Surgical Blade- 15no.', 20, 'Box', '', ''], ['', 'Surgical Blade- 20no.', '', 'Box', '', ''], ['', 'Surgical Blade- 21no.', '', 'Box', '', ''], ['', 'Surgical Blade- 22no.', '', 'Box', '', ''], ['', 'Surgical Blade- 23no.', 60, 'Box', '', ''], ['', 'Surgical Blade- 24no.', 20, 'Box', '', ''], ['', 'Surgical Blade- 10no.', 10, 'Box', '', ''], ['', '', '', '', '', ''], ['', 'Unolock 10ml(leverlock)', '', 'case', '', ''], ['', 'Unolock  5ml(leverlock)', '', 'case', '', ''], ['', 'Dispovan Pen Needle(Pouch Pack)', 10, 'box', '(1X20X5 pcs)', ''], ['', '', '', '', '', ''], ['Thanking You,', '', '', '', '', '']];
+            const container = document.querySelector('#hot');
+            const hot = new Handsontable(container, {
+              data: data,
+              rowHeaders: true,
+              colHeaders: true,
+              filters: true,
+              dropdownMenu: true,
+              licenseKey: 'non-commercial-and-evaluation'
+            });
+          </script>
+        </body>
+        </html>
+        
