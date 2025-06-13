@@ -123,7 +123,7 @@ class ExcelOrderEditor(QWidget):
         for row in sheet.iter_rows():
             for cell in row:
                 if cell.value and isinstance(cell.value, str) and (
-                        "qty" in cell.value.lower() or "name" in cell.value.lower()):
+                        "qty" in cell.value.lower() or "name" in cell.value.lower()or "size" in cell.value.strip().lower()):
                     headingRow = cell.row
                     break
             if headingRow:
@@ -140,7 +140,24 @@ class ExcelOrderEditor(QWidget):
             data.append(row_data)
 
         df = pd.DataFrame(data, columns=headers)
+        rowThank =df[df.apply(lambda row: row.astype(str).str.lower().str.strip().str.contains('thanking').any(), axis=1)].index
+
+        if not rowThank.empty:
+            # Get the index of the first occurrence of 'than'
+            # st.write(rowThank)
+            row_index = rowThank[0]
+            # Drop rows below the 'thank' row (including the 'than' row itself)
+            df = df.iloc[:row_index]
+
         df = df.dropna(how='all')
+        for index, row in df.iterrows():
+            if isinstance(row[headers[0]], str) and all(pd.isna(row[col]) for col in headers[1:]):
+                df = df.drop(index)
+        df[df.columns[0]] = range(1, len(df) + 1)
+        
+        df = df.reset_index(drop=True)
+        df = df.replace('-', None)
+        
         return df
 
     def display_df(self, df):

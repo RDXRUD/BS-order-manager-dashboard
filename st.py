@@ -2,8 +2,8 @@ import streamlit as st
 import os
 import sys
 from openpyxl import load_workbook
-import win32com.client
-import pythoncom
+# import win32com.client
+# import pythoncom
 import base64
 from openpyxl.styles import Border, Side
 from datetime import date
@@ -12,29 +12,29 @@ from datetime import datetime
 from openpyxl.styles import Font, PatternFill,Alignment
 from openpyxl.utils import get_column_letter
 
-def convert_excel_to_pdf(excel_file, pdf_file):
-    pythoncom.CoInitialize()
-    excel = win32com.client.Dispatch("Excel.Application")
-    excel.Visible = False
+# def convert_excel_to_pdf(excel_file, pdf_file):
+#     pythoncom.CoInitialize()
+#     excel = win32com.client.Dispatch("Excel.Application")
+#     excel.Visible = False
 
-    workbook = excel.Workbooks.Open(excel_file)
-    sheet = workbook.Sheets(1)
+#     workbook = excel.Workbooks.Open(excel_file)
+#     sheet = workbook.Sheets(1)
     
-    try:
-        # Adjust page setup to fit content to PDF
-        sheet.PageSetup.Zoom = False
-        sheet.PageSetup.FitToPagesWide = 1  # Fit all columns to one page width
-        sheet.PageSetup.FitToPagesTall = False  # Allow multiple pages for rows if needed
+#     try:
+#         # Adjust page setup to fit content to PDF
+#         sheet.PageSetup.Zoom = False
+#         sheet.PageSetup.FitToPagesWide = 1  # Fit all columns to one page width
+#         sheet.PageSetup.FitToPagesTall = False  # Allow multiple pages for rows if needed
         
-        sheet.Select()
-        workbook.ExportAsFixedFormat(0, pdf_file)
+#         sheet.Select()
+#         workbook.ExportAsFixedFormat(0, pdf_file)
             
-    except Exception as e:
-        print(f"Error: {e}")
-    finally:
-        workbook.Close(False)
-        excel.Quit()
-        pythoncom.CoUninitialize()
+#     except Exception as e:
+#         print(f"Error: {e}")
+#     finally:
+#         workbook.Close(False)
+#         excel.Quit()
+#         pythoncom.CoUninitialize()
 
 def fetch_products(file,date,company,tc,tl,orderNO,emails):
     # print("hi")
@@ -382,12 +382,12 @@ def fetch_products(file,date,company,tc,tl,orderNO,emails):
                 # Save the workbook
                 workbook.save(output_file)
                 st.success("File Saved Successfully!")
-                convert_excel_to_pdf(output_file, pdf_file)
-                if pdf_file:
-                    with open(pdf_file, "rb") as f:
-                        base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-                        pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="500" type="application/pdf"></iframe>'
-                    st.markdown(pdf_display, unsafe_allow_html=True)
+                # convert_excel_to_pdf(output_file, pdf_file)
+                # if pdf_file:
+                #     with open(pdf_file, "rb") as f:
+                #         base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+                #         pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="500" type="application/pdf"></iframe>'
+                #     st.markdown(pdf_display, unsafe_allow_html=True)
                 
 
     
@@ -403,7 +403,7 @@ def main():
     else:
         # Running in a normal Python environment
         BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    directory=os.path.join(BASE_DIR, "data files\Purchase Order")
+    directory=os.path.join(BASE_DIR, "data files/Purchase Order")
     file_list = os.listdir(directory)
 
                 
