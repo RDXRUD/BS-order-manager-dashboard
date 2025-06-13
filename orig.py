@@ -178,8 +178,8 @@ def test(data):
 
         # Orange line
         canvas.setStrokeColor(colors.darkorange)
-        canvas.setLineWidth(2)
-        canvas.line(left_margin, top_margin - 30, width - left_margin, top_margin - 30)
+        canvas.setLineWidth(4)
+        canvas.line(left_margin, top_margin - 24, (width - left_margin)/2+25, top_margin - 24)
 
         # Left details
         y = top_margin - 40

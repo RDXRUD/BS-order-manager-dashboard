@@ -1,0 +1,73 @@
+2025-06-14 03:40:44,959 [INFO] 📁 Watching: /Users/rudrakshagarwal/order manager/testing/data files/Purchase Order
+2025-06-14 03:40:44,961 [INFO] 🗂️ Preloaded: MORPEN.xlsx with mod_time 1749844393.0921915
+2025-06-14 03:40:44,961 [INFO] 🗂️ Preloaded: bio lab.xlsx with mod_time 1749845548.541415
+2025-06-14 03:40:44,961 [INFO] 🗂️ Preloaded: gujarat healthcare.xlsx with mod_time 1749844393.1150224
+2025-06-14 03:40:44,961 [INFO] 🗂️ Preloaded: NARINDRA-ORDER FORM.xlsx with mod_time 1749844393.0926647
+2025-06-14 03:40:44,961 [INFO] 🗂️ Preloaded: GAURABH SCIENTIFIC.xlsx with mod_time 1749844393.0853713
+2025-06-14 03:40:44,961 [INFO] 🗂️ Preloaded: ORLEY LAB.xlsx with mod_time 1749844393.095489
+2025-06-14 03:40:44,961 [INFO] 🗂️ Preloaded: VICCOS ORTHO AIDS.xlsx with mod_time 1749844393.109989
+2025-06-14 03:40:44,961 [INFO] 🗂️ Preloaded: PRAGATI-MEDIGRIP.xlsx with mod_time 1749844393.0978339
+2025-06-14 03:40:44,962 [INFO] 🗂️ Preloaded: HMD.xlsx with mod_time 1749844393.0872502
+2025-06-14 03:40:44,962 [INFO] 🗂️ Preloaded: JJHS.xlsx with mod_time 1749844393.088858
+2025-06-14 03:40:44,962 [INFO] 🗂️ Preloaded: BIOWIL.xlsx with mod_time 1749845791.4560134
+2025-06-14 03:40:44,962 [INFO] 🗂️ Preloaded: SAI LIFE.xlsx with mod_time 1749845885.202573
+2025-06-14 03:40:44,962 [INFO] 🗂️ Preloaded: TROIKAA.xlsx with mod_time 1749844393.1051886
+2025-06-14 03:40:44,962 [INFO] 🗂️ Preloaded: IV FLUID.xlsx with mod_time 1749844393.0883923
+2025-06-14 03:40:44,962 [INFO] 🗂️ Preloaded: KRISHNA SURGICALS.xlsx with mod_time 1749844393.0900385
+2025-06-14 03:40:44,962 [INFO] 🗂️ Preloaded: perfecia.xlsx with mod_time 1749844393.118306
+2025-06-14 03:40:44,962 [INFO] 🗂️ Preloaded: techno.xlsx with mod_time 1749850724.2215126
+2025-06-14 03:40:44,962 [INFO] 🗂️ Preloaded: CSI-INTERSURGICALS.xlsx with mod_time 1749844393.0842369
+2025-06-14 03:40:44,962 [INFO] 🗂️ Preloaded: COLLATERAL.xlsx with mod_time 1749844393.0829327
+2025-06-14 03:40:44,962 [INFO] 🗂️ Preloaded: REENA TRADERS.xlsx with mod_time 1749844393.0987442
+2025-06-14 03:40:44,962 [INFO] 🗂️ Preloaded: MEDIGOLD.xlsx with mod_time 1749844393.091117
+2025-06-14 03:40:44,962 [INFO] 🗂️ Preloaded: BRG CHEMICALS.xlsx with mod_time 1749844393.0824206
+2025-06-14 03:40:44,963 [INFO] 🗂️ Preloaded: bsn.xlsx with mod_time 1749844393.1122496
+2025-06-14 03:40:44,963 [INFO] 🗂️ Preloaded: UNIVERSAL-GAZIABAD.xlsx with mod_time 1749844393.10785
+2025-06-14 03:40:44,963 [INFO] 🗂️ Preloaded: sanmed.xlsx with mod_time 1749844393.1188912
+2025-06-14 03:40:44,963 [INFO] 🗂️ Preloaded: sareen.xlsx with mod_time 1749844393.119359
+2025-06-14 03:40:44,963 [INFO] 🗂️ Preloaded: THEATEX.xlsx with mod_time 1749851679.7433784
+2025-06-14 03:40:44,963 [INFO] 🗂️ Preloaded: smith medical.xlsx with mod_time 1749844393.1198382
+2025-06-14 03:40:44,963 [INFO] 🗂️ Preloaded: VIKAMSHI.xlsx with mod_time 1749844393.1104183
+2025-06-14 03:40:44,963 [INFO] 🗂️ Preloaded: TULIP INTERNATIONAL.xlsx with mod_time 1749848492.2881289
+2025-06-14 03:40:44,963 [INFO] 🗂️ Preloaded: VANDANA.xlsx with mod_time 1749850049.0576768
+2025-06-14 03:40:44,963 [INFO] 🗂️ Preloaded: SISLA.xlsx with mod_time 1749851554.6497073
+2025-06-14 03:40:44,963 [INFO] 🗂️ Preloaded: datt.xlsx with mod_time 1749844393.1136425
+2025-06-14 03:40:44,963 [INFO] 🗂️ Preloaded: PRIMEWEAR.xlsx with mod_time 1749844393.0983055
+2025-06-14 03:40:44,963 [INFO] 🗂️ Preloaded: SINGLA HEALTHCARE.xlsx with mod_time 1749844393.1020615
+2025-06-14 03:40:44,964 [INFO] 🗂️ Preloaded: surgiwere.xlsx with mod_time 1749851334.202485
+2025-06-14 03:40:44,964 [INFO] 🗂️ Preloaded: GB.xlsx with mod_time 1749844393.0865538
+2025-06-14 03:40:44,964 [INFO] 🗂️ Preloaded: NAULAKHA.xlsx with mod_time 1749844393.0933244
+2025-06-14 03:40:44,964 [INFO] 🗂️ Preloaded: PIONEER.xlsx with mod_time 1749844393.0973458
+2025-06-14 03:40:44,964 [INFO] 🗂️ Preloaded: carewin.xlsx with mod_time 1749844393.1128824
+2025-06-14 03:40:44,964 [INFO] 🗂️ Preloaded: NEXA.xlsx with mod_time 1749844393.095033
+2025-06-14 03:40:44,964 [INFO] 🗂️ Preloaded: INTERNATIONAL RUBBER MEERUT.xlsx with mod_time 1749844393.087826
+2025-06-14 03:40:44,964 [INFO] 🗂️ Preloaded: BD.xlsx with mod_time 1749844393.0799532
+2025-06-14 03:40:44,964 [INFO] 🗂️ Preloaded: bharat.xlsx with mod_time 1749844393.110915
+2025-06-14 03:40:44,964 [INFO] 🗂️ Preloaded: PARIVAR.xlsx with mod_time 1749844393.09686
+2025-06-14 03:40:44,964 [INFO] 🗂️ Preloaded: MEDISAFE.xlsx with mod_time 1749844393.0916014
+2025-06-14 03:40:44,964 [INFO] 🗂️ Preloaded: NEON.xlsx with mod_time 1749844393.0937746
+2025-06-14 03:40:44,965 [INFO] 🗂️ Preloaded: faith.xlsx with mod_time 1749844393.1145675
+2025-06-14 03:40:44,965 [INFO] 🗂️ Preloaded: COLOPLAST.xlsx with mod_time 1749844393.0835032
+2025-06-14 03:40:44,965 [INFO] 🗂️ Preloaded: ROMSONS.xlsx with mod_time 1749844393.0995061
+2025-06-14 03:40:44,965 [INFO] 🗂️ Preloaded: KARMA.xlsx with mod_time 1749844393.089405
+2025-06-14 03:40:44,965 [INFO] 🗂️ Preloaded: Shiv Ram Industries.xlsx with mod_time 1749844393.1033595
+2025-06-14 03:40:44,965 [INFO] 🗂️ Preloaded: national.xlsx with mod_time 1749844393.1172729
+2025-06-14 03:40:44,965 [INFO] 🗂️ Preloaded: RETACTOR.xlsx with mod_time 1749844393.0991275
+2025-06-14 03:40:44,966 [INFO] 🗂️ Preloaded: SGS HERBAL.xlsx with mod_time 1749845915.5611877
+2025-06-14 03:40:44,966 [INFO] 🗂️ Preloaded: AEGIS.xlsx with mod_time 1749847302.6038399
+2025-06-14 03:40:44,966 [INFO] 🗂️ Preloaded: india surgical.xlsx with mod_time 1749844393.116109
+2025-06-14 03:40:44,966 [INFO] 🗂️ Preloaded: TYNOR ORDER list.xlsx with mod_time 1749844393.1071315
+2025-06-14 03:40:44,966 [INFO] 🗂️ Preloaded: Universal-Adult Diapers.xlsx with mod_time 1749848631.478243
+2025-06-14 03:40:44,966 [INFO] 🗂️ Preloaded: neon2.xlsx with mod_time 1749844393.1177502
+2025-06-14 03:40:44,966 [INFO] 🗂️ Preloaded: everest.xlsx with mod_time 1749844393.1141145
+2025-06-14 03:40:44,966 [INFO] 🗂️ Preloaded: SARAH-PORTEX.xlsx with mod_time 1749844393.1005962
+2025-06-14 03:40:44,966 [INFO] 🗂️ Preloaded: ALCAN.xlsx with mod_time 1749844393.0792732
+2025-06-14 03:40:44,966 [INFO] 🗂️ Preloaded: Universal-Baby Wipes.xlsx with mod_time 1749844393.1090584
+2025-06-14 03:40:44,967 [INFO] 🗂️ Preloaded: BELT.xlsx with mod_time 1749845065.6388123
+2025-06-14 03:40:44,967 [INFO] 🗂️ Preloaded: TULIP EAR BUDS.xlsx with mod_time 1749848038.875281
+2025-06-14 03:40:44,967 [INFO] 🗂️ Preloaded: KURIAN ABRAHAM.xlsx with mod_time 1749844393.0905685
+2025-06-14 03:40:44,967 [INFO] 🗂️ Preloaded: TROIKAA-HOSPITROY.xlsx with mod_time 1749844393.1047413
+2025-06-14 03:40:44,967 [INFO] 🗂️ Preloaded: CYGNET.xlsx with mod_time 1749844393.0847082
+2025-06-14 03:40:44,967 [INFO] 🗂️ Preloaded: viggo.xlsx with mod_time 1749844393.1216292
+2025-06-14 03:40:44,967 [INFO] 🗂️ Preloaded: ks.xlsx with mod_time 1749844393.116759
+2025-06-14 03:40:47,571 [INFO] 👋 Stopped watching.
